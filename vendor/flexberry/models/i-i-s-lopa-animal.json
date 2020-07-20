@@ -1,0 +1,54 @@
+﻿{
+  "name": "IISlopaAnimal",
+  "modelName": "i-i-s-lopa-animal",
+  "className": "Animal",
+  "nameSpace": "IIS.lopa",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "weight",
+      "type": "decimal",
+      "flexberryType": "double",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "AnimalE",
+      "modelName": "i-i-s-lopa-animal",
+      "attrs": [
+        {
+          "name": "weight",
+          "caption": "Weight",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "AnimalL",
+      "modelName": "i-i-s-lopa-animal",
+      "attrs": [
+        {
+          "name": "weight",
+          "caption": "Weight",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

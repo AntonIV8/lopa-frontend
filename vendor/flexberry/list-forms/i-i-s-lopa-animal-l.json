@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-lopa-animal-e",
+  "editForm": "i-i-s-lopa-animal-e",
+  "external": false,
+  "caption": "Animal",
+  "name": "IISlopaAnimalL",
+  "className": "AnimalL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-lopa-animal",
+      "modelProjection": "AnimalL"
+    }
+  ]
+}
